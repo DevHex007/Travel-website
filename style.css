@@ -673,21 +673,17 @@ header .search-bar-container label:hover{
 }
 
 @media (max-width:450px){
-
-  @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
-{ @media {
     html{
     font-size: 50%;
   }
-
+header .navbar{
+overflow: hidden;
+}
   .heading span{
     font-size: 2.5rem;
   }
 
   .contact .row form .inputBox input{
     width:100%;
-  }
-}}
-
 }
 
