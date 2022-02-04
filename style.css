@@ -676,9 +676,6 @@ header .search-bar-container label:hover{
     html{
     font-size: 50%;
   }
-header .navbar{
-overflow: hidden;
-}
   .heading span{
     font-size: 2.5rem;
   }
