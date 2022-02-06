@@ -657,7 +657,10 @@ header .search-bar-container label:hover{
     padding:1rem 2rem;
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
-
+header .navbar,
+header .search-bar-container{
+     display: none;
+}
   header .navbar.active{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
@@ -679,7 +682,10 @@ header .search-bar-container label:hover{
   .heading span{
     font-size: 2.5rem;
   }
-
+header .navbar,
+header .search-bar-container{
+     display: none;
+}
   .contact .row form .inputBox input{
     width:100%;
 }
